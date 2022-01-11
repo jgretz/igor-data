@@ -1,6 +1,6 @@
 {
   "name": "@jgretz/igor-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "utility logic to support data based igor microservices",
   "author": "jgretz",
   "license": "MIT",
@@ -16,7 +16,7 @@
   "scripts": {
     "format": "prettier --write **/*.ts",
     "lint": "eslint src/**/*.ts",
-    "clean-build": "rm -rf ./build",
+    "clean-build": "rm -rf ./dist",
     "compile": "tsc -p .",
     "build": "yarn format && yarn lint && yarn clean-build && yarn compile",
     "prepublishOnly": "yarn build"
